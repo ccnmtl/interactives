@@ -1,0 +1,28 @@
+<h1 class="text-center">Recent work</h1>
+
+<div class="row more-recent-entries">
+{{ range first 3 ( where .Site.Pages "Type" "portfolio" ) }}
+    <div class="col-md-4">
+        <article class="recent-entry">
+            {{ if .Params.poster }}
+            <figure>
+                <a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}img/assets/{{ .Params.poster }}" alt="" itemprop="image"></a>
+            </figure>
+            {{ end }}
+            <h2 class="entry-title">
+                <a href="{{ .Permalink }}"><span class="entry-link glyphicon glyphicon-link"></span>{{ .Title }}</a>
+            </h2>
+            <div class="entry-summary">
+                <p>{{ if .Params.packagedescription }}{{ .Params.packagedescription }}{{ else }}{{ .Summary  }}{{ end }}</p>
+            </div>
+            <div class="other-info">
+                <time class="entry-date" datetime='{{ .Date.Format "2006-01-02"  }}'>{{ .Date.Format "January 2, 2006" }}</time>
+            </div>
+        </article>
+    </div>
+{{ end }}
+</div>
+
+<div class="more-articles-link">
+    <a href="/portfolio/">Browse full portfolio <span class="glyphicon glyphicon-chevron-right" role="presentation"></span></a>
+</div>

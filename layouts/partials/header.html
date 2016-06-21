@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {{ "<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->" | safeHTML }}
+    {{ .Hugo.Generator }}
+
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Site.Title }}: {{ .Title }}{{ end }}</title>
+    
+    {{ "<!-- Bootstrap CSS -->" | safeHTML }}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+    {{ "<!-- Theme CSS -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+    {{ "<!-- Search widget CSS -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/search.css" />
+    {{ "<!-- Social media sharing widget CSS -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/socmedia.css" />
+    
+    
+    {{ if .Site.Params.customCSS }}
+    {{ "<!-- Custom CSS -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/{{.Site.Params.customCSS }}" />
+    {{ end }}
+
+    {{ `<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->` | safeHTML }}
+    
+    {{ partial "meta.html" . }}
+
+    {{ partial "favicon.html" . }}
+
+    <link href="{{ .Site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    <link href="{{ .Site.BaseURL }}index.xml" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+
+{{ partial "banner.html" . }}
+
+<div class="container docs-container clearfix" id="maincontent" role="main">
+    <span class="sr-only" role="presentation">&nbsp;</span><!-- to fix some weirdness in VoiceOver -->
+    <div class="row docs-row">
+        <div class="col-md-10 col-md-offset-1">

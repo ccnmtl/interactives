@@ -1,0 +1,41 @@
+{{ partial "header.html" . }}
+
+<h1 id="primary-title">Tags</h1>
+
+<ul class="nav nav-tabs">
+    <li role="presentation">
+        <a href="#" class="view-taglist">View all tags as list</a>
+    </li>
+    <li role="presentation" class="active">
+        <a href="#" class="view-tagcloud">View all tags as cloud</a>
+    </li>
+    <li role="presentation">
+        <a href="#" class="view-popular">View most popular tags</a>
+    </li>
+</ul>
+
+
+<div id="tag-all" class="taglist tagcloud">
+    <ul>
+    {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms }}
+        <li><a href="/{{ $data.Plural }}/{{ $key | urlize }}">{{  $key }} <span class="weight{{ len $value }}">{{ len $value }}</span></a></li>
+    {{ end }}
+   </ul>
+</div>
+
+<div id="tag-popular">
+<ul>
+    {{ $data := .Data }}
+    {{ range $key, $value := first 10 .Data.Terms.ByCount }}
+    <li>
+        <a rel="tag" href="/{{ $data.Plural }}/{{ $value.Name | urlize }}">
+            {{ $value.Name }} <span>{{$value.Count}}</span>
+        </a>
+    </li>
+    {{ end }}
+</ul>
+</div>
+
+{{ partial "footer.html" . }}
+

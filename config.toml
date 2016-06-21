@@ -1,0 +1,13 @@
+baseURL = "http://interactives.ctl.columbia.edu/"
+copyright = "No sure"
+languageCode = "en-us"
+metaDataFormat = "yaml"
+title = "Interactives \u0040 CTL"
+SectionPagesMenu = "main"
+
+[taxonomies]
+    tag = "tags"
+
+[params]
+    description = "A portfolio of standalone interactives developed at the Center for Teaching and Learning at Columbia University"
+    keywords = "javascript"

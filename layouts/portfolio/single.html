@@ -1,0 +1,61 @@
+{{partial "header.html" .}}
+{{partial "header-print.html" .}}
+
+<div class="row">
+    <div class="col-md-9">
+    <article class="entry-layout hentry" itemscope itemtype="https://schema.org/BlogPosting">
+        <header class="entry-header">
+            {{ if .Params.poster }}
+            <figure>
+                <img src="{{ .Site.BaseURL }}img/assets/{{ .Params.poster }}" alt="" itemprop="image">
+            </figure>
+            {{ end }}
+            <div class="entry-topic"><span class="sr-only">Article topic: </span>
+            {{ range $i, $e := .Params.topics }}{{if $i}},{{end}} <a href="/topics/{{ . | urlize | lower}}/"><span itemprop="about">{{$e}}</span></a>{{ end }}           
+            </div>
+            <h1 class="entry-title" itemprop="headline">
+                {{.Title}}
+            </h1>
+            <div class="entry-other-info">
+                By <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a itemprop="url" href="{{.Params.author_url}}"><span itemprop="name" class="fn">{{.Params.author_name}}</span></a></span>
+                
+                |
+                <time class="entry-date published" datetime='{{ .Date.Format "2006-01-02"  }}' itemprop="datePublished">{{ .Date.Format "Jan 2, 2006" }}</time>
+                {{ if .Params.tags }}<div class="entry-keywords">
+                <h4>Tags:</h4> 
+                {{ range $i, $e := .Params.tags }}{{if $i}},{{end}} <a href="/tags/{{ . | urlize | lower}}/" rel="tag"><span itemprop="keywords">{{$e}}</span></a>{{ end }}                
+                </div>{{ end }}
+            </div>
+
+            <div class="socmedia-share hidden-print clearfix">
+                <h4>Share<span class="sr-only"> this article on</span>:</h4>
+                <ul class="clearfix">
+                    <li><span><a rel="nofollow" class="share-window" href="http://www.facebook.com/share.php?u={{.Permalink}}&title={{.Title}}"><img src="{{ .Site.BaseURL }}img/icon-facebook.png" alt="Facebook" /></a></span></li>
+                    <li><span><a rel="nofollow" class="share-window" href="https://twitter.com/intent/tweet?text=CompilED:%20{{ .Title }}&url={{ .Permalink }}&via=ColumbiaCTL"><img src="{{ .Site.BaseURL }}img/icon-twitter.png" alt="Twitter" /></a></span></li>
+                    <li><span><a rel="nofollow" class="share-window" href="https://plus.google.com/share?url={{ .Permalink }}"><img src="{{ .Site.BaseURL }}img/icon-googleplus.png" alt="Google Plus" /></a></span></li>
+                </ul>
+            </div>
+
+
+        </header>
+        
+        <div class="entry-content" itemprop="articleBody">
+            {{ .Content }}
+            <div class="bookend hidden-print">
+                <span class="glyphicon glyphicon-menu-left" role=""></span><span class="glyphicon glyphicon-cog"></span><span class="glyphicon glyphicon-menu-right"></span>
+                <span class="sr-only">End of article.</span>
+            </div>
+        </div>
+        <div class="visible-print-block">
+        <hr />
+        {{ .Permalink }}
+        <hr />
+        </div>
+    </article>
+    </div>
+    <div class="col-md-3 sidenav hidden-print" role="complementary">
+        {{partial "topic_list.html" .}}        
+    </div>
+</div>
+
+{{partial "footer.html" .}}
