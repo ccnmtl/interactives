@@ -3,29 +3,15 @@
 
 <div class="row">
     <div class="col-md-9">
-    <article class="entry-layout hentry" itemscope itemtype="https://schema.org/BlogPosting">
+    <article class="entry-layout hentry">
         <header class="entry-header">
-            {{ if .Params.poster }}
             <figure>
-                <img src="{{ .Site.BaseURL }}img/assets/{{ .Params.poster }}" alt="" itemprop="image">
+                <img src="{{ .Site.BaseURL }}img/assets/poster-{{ .Params.interactiveslug }}.jpg" alt="" itemprop="image">
             </figure>
-            {{ end }}
-            <div class="entry-topic"><span class="sr-only">Article topic: </span>
-            {{ range $i, $e := .Params.topics }}{{if $i}},{{end}} <a href="/topics/{{ . | urlize | lower}}/"><span itemprop="about">{{$e}}</span></a>{{ end }}           
-            </div>
+
             <h1 class="entry-title" itemprop="headline">
-                {{.Title}}
+                {{ .Title }}
             </h1>
-            <div class="entry-other-info">
-                By <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a itemprop="url" href="{{.Params.author_url}}"><span itemprop="name" class="fn">{{.Params.author_name}}</span></a></span>
-                
-                |
-                <time class="entry-date published" datetime='{{ .Date.Format "2006-01-02"  }}' itemprop="datePublished">{{ .Date.Format "Jan 2, 2006" }}</time>
-                {{ if .Params.tags }}<div class="entry-keywords">
-                <h4>Tags:</h4> 
-                {{ range $i, $e := .Params.tags }}{{if $i}},{{end}} <a href="/tags/{{ . | urlize | lower}}/" rel="tag"><span itemprop="keywords">{{$e}}</span></a>{{ end }}                
-                </div>{{ end }}
-            </div>
 
             <div class="socmedia-share hidden-print clearfix">
                 <h4>Share<span class="sr-only"> this article on</span>:</h4>
@@ -36,11 +22,28 @@
                 </ul>
             </div>
 
-
+            <div class="launch-interactive hidden-print clearfix">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    Launch interactive
+                </button>
+            </div>
         </header>
         
         <div class="entry-content" itemprop="articleBody">
             {{ .Content }}
+
+            <div class="embed-code">
+            <h3>How to install</h3>
+            <h4>Iframe embed</h4>
+            <p>To embed this interactive directly into your website, copy the following code:</p>
+            <pre>
+&lt;iframe src="https://interactives.ctl.columbia.edu/lib/{{ .Params.interactiveslug }}/" frameborder="0"&gt;
+&lt;/iframe&gt;
+            </pre>
+            <h4>NPM and Dev installation</h4>
+            <p>For this type of installation, please follow the instructions on <a href="{{ .Params.githuburl }}" target="_blank">Github</a> or <a href="{{ .Params.npmurl }}" target="_blank">NPM</a></p>
+            </div>
             <div class="bookend hidden-print">
                 <span class="glyphicon glyphicon-menu-left" role=""></span><span class="glyphicon glyphicon-cog"></span><span class="glyphicon glyphicon-menu-right"></span>
                 <span class="sr-only">End of article.</span>
@@ -54,8 +57,8 @@
     </article>
     </div>
     <div class="col-md-3 sidenav hidden-print" role="complementary">
-        {{partial "topic_list.html" .}}        
+        {{partial "interactive_details.html" .}}        
     </div>
 </div>
-
 {{partial "footer.html" .}}
+

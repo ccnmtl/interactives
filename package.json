@@ -1,19 +1,34 @@
 {
-  "name": "compiled",
-  "version": "0.0.0",
-  "description": "Programmer Blog",
-  "main": "index.js",
+  "name": "passhugo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ccnmtl/compiled.git"
+    "url": "git://github.com/ccnmtl/passhugo.git"
   },
   "author": "",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/ccnmtl/compiled/issues"
+    "url": "https://github.com/ccnmtl/passhugo/issues"
+  },
+  "dependencies": {
+    "anticipatoryguidance-pack": "^0.1.4",
+    "dentalcareerplan-pack": "^0.1.6",
+    "dentalofficelocation-pack": "^0.1.5",
+    "dentalruralhealth-pack": "^0.1.5",
+    "dentalvisitactivity-pack": "^0.1.5",
+    "elderissuesdresser-pack": "^0.1.7",
+    "elderissuesrefrigerator-pack": "^0.1.6",
+    "specialneedsvisit-pack": "^0.1.6",
+    "speechassessment-pack": "^0.1.4",
+    "speechdiagnoses-pack": "^0.1.4",
+    "supportservices-pack": "^0.1.6",
+    "swallowassessment-pack": "^0.1.4",
+    "webpack": "^1.13.1"
   },
   "devDependencies": {
     "jshint": "~2.9.1-rc1",

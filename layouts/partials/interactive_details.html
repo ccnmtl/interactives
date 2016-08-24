@@ -1,0 +1,23 @@
+<h5>Distribution</h5>
+<ul class="nav details-list">
+    {{ if .Params.githuburl }}
+    <li><a href="{{ .Params.githuburl }}" target="_blank">Github</a></li>
+    {{ end }}
+    {{ if .Params.npmurl }}
+    <li><a href="{{ .Params.npmurl }}" target="_blank">NPM</a></li>
+    {{ end }}
+    <li><a href="{{ .Site.BaseURL }}/lib/{{ .Params.interactiveslug }}/" target="_blank">Link</a></li>
+</ul>
+
+
+{{ if .Params.license }}
+<h5>License</h5>
+<ul class="nav details-list">
+    {{ if eq .Params.license "mit" }}
+    <li><a href="http://spdx.org/licenses/MIT" target="_blank">MIT</a></li>
+    {{ end }}
+    {{ if eq .Params.license "gplv2" }}
+    <li><a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GPLv2</a></li>
+    {{ end }}
+</ul>
+{{ end }}

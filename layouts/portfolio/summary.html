@@ -11,6 +11,6 @@
     Posted in <span class="entry-topic">{{ range .Params.topics }}<a href="/topics/{{ . | urlize | lower}}/">{{ . }}</a>{{ end }}</span>
     </div>
     <div class="entry-summary">
-    <p>{{ if .Params.lede }}{{ .Params.lede }}{{ else }}{{ .Summary  }}{{ end }}</p>
+    <p>{{ if .Params.lede }}{{ .Params.lede }}{{ else }}--{{ end }}</p>
     </div>
 </article>

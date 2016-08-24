@@ -1,0 +1,27 @@
+<!-- Modal -->
+<div class='modal fade {{ .Get "minsize" }} {{ .Get "name" }}' id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal Interactive</h4>
+      </div>
+      <div class="modal-body">
+<div class='{{ .Get "minsize" }}-width-warning alert alert-danger' role="presentation">
+  The interactive activity on this page is best viewed on larger screens. Please rotate your mobile device, or switch to a desktop computer.
+</div>
+
+<div class='iframe-embed'>
+<p class="sr-only" role="alert">The following is an interactive activity that may not be accessible to assistive technologies.</p>
+	<iframe src='/lib/{{ .Get "url" }}'
+		frameborder='0'
+		height='800'
+	></iframe>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -4,7 +4,6 @@ draft:  true
 githubURL: ""
 npmURL: ""
 type: "portfolio"
-poster: "filename"
+interactiveslug: "filename"
 packagedescription: ""
-tags: []
 ---

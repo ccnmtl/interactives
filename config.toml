@@ -10,4 +10,4 @@ SectionPagesMenu = "main"
 
 [params]
     description = "A portfolio of standalone interactives developed at the Center for Teaching and Learning at Columbia University"
-    keywords = "javascript"
+    keywords = "javascript, webpack"

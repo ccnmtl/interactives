@@ -1,8 +1,8 @@
 ---
-date: 2016-05-19
+date: 2016-08-23
 githubURL: "https://github.com/ccnmtl/dentalvisitactivity-pack"
 npmURL: "https://www.npmjs.com/package/dentalvisitactivity-pack"
-poster: thumb-dentalvisitactivity.jpg
+interactiveslug: "dentalvisit"
 packagedescription: "Interactive to recreate a pediatric dental visit."
 title: Pediatric Dental Visit
 type: portfolio
@@ -12,3 +12,5 @@ The patient arrived early and you have completed your exam, prophy and flouride 
 
 Each activity is estimated to take a certain amount of time, but just like in real practice, things don't always go as planned. Select how you would use your remaining time.
 
+{{< related_project "pass" >}}
+{{< interactives url="dentalvisit" minsize="sm" name="dentalvisit" >}}

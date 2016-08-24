@@ -10,7 +10,7 @@ body {
 
 /* Basic ------------------------------ */
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -29,6 +29,13 @@ h2 {
 h3 {
     font-size: 20px;
     line-height: 120%;
+    margin: 30px 0 10px 0;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 120%;
+    margin: 30px 0 10px 0;
 }
 
 hr {
@@ -115,7 +122,7 @@ header.container {
 .front-page-banner {
     background-color: #fff;
     /* background-color: #eef7fa; */
-    height: 180px;
+    height: 140px;
 }
 
 .front-page-banner .navbar-brand,
@@ -127,14 +134,16 @@ header.container {
 
 .front-page-banner .navbar-brand img,
 .page-banner .navbar-brand img  {
-    width: 214px;
+    width: 144px;
+    z-index: 2000;
+    position: absolute;
 }
 
 .front-page-banner .navbar-default,
 .page-banner .navbar-default {
     background-color: #026486;
     border: 0;
-    min-height: 70px;
+    min-height: 50px;
     border-radius: 0px;
 }
 
@@ -157,7 +166,7 @@ header.container {
 .front-page-banner .navbar-default .navbar-nav>li>a,
 .page-banner .navbar-default .navbar-nav>li>a {
     color: #ccc;
-    background-color: #333;
+    background-color: #4a8ba2;
     text-align: right;
     padding-right: 20px;
 }
@@ -178,7 +187,7 @@ header.container {
 
 .front-page-banner .navbar-default button.navbar-toggle,
 .page-banner .navbar-default button.navbar-toggle {
-    background-color: #333;
+    background-color: #04536f;
     border-color: #ddd;
 }
 
@@ -186,20 +195,20 @@ header.container {
 {
 	position: absolute;
 	left: 0;
-	top: 80px;
+	top:55px;
 	width: 100%;
 	border: 0;
 	text-align: center;
 }
 
 #front-page-logo #tagline {
-	font: 400 20px/120% 'Montserrat', sans-serif;
+	font: 400 14px/120% 'Montserrat', sans-serif;
 	color: #006699;
     display: block;
 }
 
 #front-page-logo hr {
-    margin: 25px 50px;
+    margin: 15px 50px;
 }
 
 #latest-entry header {
@@ -257,8 +266,13 @@ header.container {
     padding-right: 0;
 }
 
+.more-recent-entries > div {
+    margin-bottom: 50px;
+}
+
 .recent-entry,
 .topics-index  {
+    text-align: center;
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
@@ -277,7 +291,7 @@ header.container {
 .recent-entry .entry-title,
 .topics-index .item-title {
 	font: 400 16px/120% 'Montserrat', sans-serif;
-	text-align: left;
+	text-align: center;
     display: block;
     color: #993300;
 }
@@ -314,7 +328,7 @@ header.container {
 
 .recent-entry .other-info {
 	font: 400 12px/140% 'Montserrat', sans-serif;
-	text-align: left;
+	text-align: center;
     color: #666;
 }
 
@@ -369,6 +383,10 @@ hr.front-page {
     min-height: 500px;
 }
 
+.docs-content {
+    margin: 0 55px;
+}
+
 #maincontent:focus {
     outline: 0;
 }
@@ -387,35 +405,30 @@ hr.front-page {
     padding-top: 20px;
 }
 
-.entry-layout header {
-    margin-bottom: 20px;
-}
 
-.entry-layout header img {
+.entry-layout img {
     display: block;
     width: 100%;
     max-width: 600px;
     margin: 0 auto 30px auto;
 }
 
-.entry-layout .entry-topic {
-    margin: 0 auto 20px auto;
-    min-width: 300px;
-	font: 700 14px/100% 'Montserrat', sans-serif;
-	color: #999;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.entry-layout .entry-topic a {
-	color: #999;
+.entry-layout .entry-header figure img {
+    border: 1px solid #ccc;
 }
 
 .entry-layout .entry-title {
-	font: 700 26px/120% 'Montserrat', sans-serif;
+	font: 400 30px/120% 'Montserrat', sans-serif;
 	text-align: center;
     display: block;
-    margin: 20px 0;
+    margin: 0 0 20px 0;
+}
+
+.entry-layout .launch-interactive {
+    border:  0;
+    padding: 10px 0;
+    text-align: center;
+    margin: auto;
 }
 
 .entry-layout .entry-other-info {
@@ -493,6 +506,19 @@ hr.front-page {
 .entry-layout .entry-content figcaption p {
     margin: 0;
     padding: 0;
+}
+
+.entry-layout .interactive-feature {
+    min-width: 810px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+}
+
+.entry-layout .interactive-feature iframe {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-width: 900px;
 }
 
 .video-display {
@@ -715,7 +741,78 @@ div.interactive-placeholder {
     font: 700 40px/100% 'Montserrat', sans-serif;
 }
 
+/* Interactives embed ----------------------------------------------------- */
 
+.iframe-embed {
+    border: 0;
+    padding: 0;
+}
+
+.all .modal-dialog  {
+    width: 90%;
+}
+
+.all iframe  {
+    width: 100%;
+}
+
+.sm iframe {
+    width: 700px;
+}
+
+.sm .modal-dialog
+{
+    width: 730px;
+}
+
+.md .modal-dialog  {
+    width: 945px;
+}
+
+.md iframe  {
+    width: 920px;
+}
+
+.lg iframe  {
+    width: 925px;
+}
+
+.dentaloffice iframe {
+    height: 1150px;
+    min-width: 860px;
+}
+
+.dentalvisit iframe {
+    height: 1200px;
+}
+
+.speechdiagnoses iframe {
+    height: 695px;
+}
+
+.speechassessment iframe {
+    height: 595px;
+}
+
+.swallowassessment iframe {
+    height: 470px;
+}
+
+.anticipatoryguidance iframe {
+    height: 610px;
+}
+
+.supportservices iframe {
+    height: 770px;
+}
+
+.specialneedsvisit iframe {
+    height: 960px;
+}
+
+.modal {
+    z-index: 5000;
+}
 
 @media (max-width: 415px) {
 }
@@ -727,9 +824,29 @@ div.interactive-placeholder {
     .poster-404 {
         width: 330px;
     }
+    .dentaloffice iframe {
+        width: 860px;
+    }
 }
 
 @media (min-width: 768px) {
+    .front-page-banner {
+        height: 180px;
+    }
+    #front-page-logo
+    {
+        top: 80px;
+    }
+    #front-page-logo #tagline {
+        font: 400 20px/120% 'Montserrat', sans-serif;
+    }
+    #front-page-logo hr {
+        margin: 25px 50px;
+    }
+    .front-page-banner .navbar-default,
+    .page-banner .navbar-default {
+        min-height: 70px;
+    }
     .front-page-banner .navbar-nav>li>a,
     .page-banner .navbar-nav>li>a {
         padding-top: 0;
@@ -762,6 +879,41 @@ div.interactive-placeholder {
         border-left: 1px dotted #ccc;
         border-top: 0;
     }
+    .more-recent-entries > div {
+        margin-bottom: 20px;
+    }
+    .recent-entry,
+    .topics-index {
+        text-align: left;
+    }
+    .recent-entry figure,
+    .topics-index figure {
+        float: left;
+        margin-right: 20px;
+    }
+    .recent-entry .entry-title,
+    .recent-entry .other-info,
+    .topics-index .item-title {
+        text-align: left;
+    }
+    .all-width-warning {
+        display: none;
+    }
+    .sm-width-warning {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .ruralhealth iframe {
+        width: 860px;
+    }
+    .dentaloffice iframe {
+        width: 860px;
+    }
+    .elderissues iframe {
+        width: 800px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -779,12 +931,62 @@ div.interactive-placeholder {
         padding-left: 20px;
         padding-right: 0;
     }
+    .more-recent-entries > div {
+        margin-bottom: 0;
+    }
     .recent-entry,
     .topics-index {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 9px;
+        padding-right: 9px;
         padding-top: 0;
         padding-bottom: 0;
+    }
+    .recent-entry figure,
+    .topics-index figure {
+        float: none;
+        margin-right: 0;
+    }
+    .recent-entry figure img,
+    .topics-index figure img {
+        width: 220px;
+    }
+    .sm iframe {
+        width: 920px;
+    }
+    .sm .modal-dialog {
+        width: 950px;
+    }
+    .md-width-warning {
+        display: none;
+    }
+    .supportservices iframe {
+        height: 690px;
+    }
+    .specialneedsvisit iframe {
+        height: 860px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .recent-entry,
+    .topics-index {
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .recent-entry figure img,
+    .topics-index figure img {
+        width: 277px;
+    }
+    .sm iframe {
+        width: 925px;
+    }
+    .sm .modal-dialog {
+        width: 955px;
+    }
+    .md iframe  {
+        width: 925px;
     }
 }
 

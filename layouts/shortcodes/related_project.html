@@ -1,0 +1,9 @@
+{{ $title := .Get 0 }}
+
+{{ range where .Page.Node.Site.Pages "Type" "project" }}
+{{ $t1l := $title }}
+{{ $t2l := .Params.projectslug }}
+{{ if eq $t1l $t2l }}
+ <p>This interactive is part of <a href="{{ .Params.projecturl }}" target="_blank">{{ .Title }}</a></p>
+{{ .Params.projectdescription | safeHTML }}{{ end }}
+{{ end }}
