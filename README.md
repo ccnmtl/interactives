@@ -1,4 +1,4 @@
-![Interactives@CTL](https://raw.githubusercontent.com/ccnmtl/compiled/master/static/img/apple-touch-icon.png)  
+![Interactives@CTL](https://raw.githubusercontent.com/ccnmtl/interactives/master/static/img/apple-touch-icon.png)  
 
 Interactives@CTL is a collection of rich Javascript interactive content developed at Columbia's [Center for Teaching and Learning](http://ctl.columbia.edu) (CTL).
 
