@@ -3,7 +3,7 @@
 {{ "<!-- Standard Meta Data -->" | safeHTML }}
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ if .IsPage }}{{ if .Params.packagedescription }}{{ .Params.packagedescription }}{{ else }}{{ .Summary }}{{ end }}{{ end }}{{ end }}" />
 <meta name="keywords" content="{{ .Site.Params.keywords }}" />
-<meta name="copyright" content="{{ if .IsPage }}{{ .Params.license }}{{ end }}">
+<meta name="copyright" content="{{ if .IsHome }}{{ .Site.Copyright }}{{ else }}{{ if .IsPage }}{{ .Params.license }}{{ end }}{{ end }}">
 
 {{ "<!-- Dublin Core Metadata -->" | safeHTML }}
 <meta name="DC.Title" content="{{ .Site.Title }}{{ if .IsPage }}: {{ .Title }}{{ end }}" />
@@ -23,4 +23,4 @@
 <meta name="twitter:site" content="@ccnmtldev" />
 <meta name="twitter:title" content="{{ .Site.Title }}{{ if .IsPage }}: {{ .Title }}{{ end }}" />
 <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ if .IsPage }}{{ if .Params.packagedescription }}{{ .Params.packagedescription }}{{ else }}{{ .Summary }}{{ end }}{{ end }}{{ end }}" />
-<meta name="twitter:image" content="{{ .Site.BaseURL }}img/favicon.png" />
+<meta name="twitter:image" content="{{ .Site.BaseURL }}img/apple-touch-icon.png" />

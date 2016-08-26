@@ -115,14 +115,14 @@ header.container {
 .front-page-banner,
 .page-banner {
     background-color: #fff;
-    height: 110px;
+    height: 60px;
 	font: 300 18px/100% 'Lato', sans-serif;
 }
 
 .front-page-banner {
     background-color: #fff;
     /* background-color: #eef7fa; */
-    height: 140px;
+    height: 110px;
 }
 
 .front-page-banner .navbar-brand,
@@ -207,8 +207,8 @@ header.container {
     display: block;
 }
 
-#front-page-logo hr {
-    margin: 15px 50px;
+header hr {
+    display: none;
 }
 
 #latest-entry header {
@@ -830,6 +830,18 @@ div.interactive-placeholder {
 }
 
 @media (min-width: 768px) {
+    .front-page-banner,
+    .page-banner {
+        height: 110px;
+    }
+    
+    .front-page-banner {
+        height: 140px;
+    }
+    header hr {
+        margin: 100px 100px 0 100px;
+        display: block;
+    }
     .front-page-banner {
         height: 180px;
     }

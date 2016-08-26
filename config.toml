@@ -1,5 +1,5 @@
 baseURL = "http://interactives.ctl.columbia.edu/"
-copyright = "No sure"
+copyright = "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
 languageCode = "en-us"
 metaDataFormat = "yaml"
 title = "Interactives \u0040 CTL"
