@@ -27,3 +27,7 @@ jQuery( ".view-popular" ).click(function() {
     jQuery( "#tag-all" ).hide(300);
     return false;
 });
+
+jQuery(".code-copy").focus(function() {
+    jQuery(this).select();
+});

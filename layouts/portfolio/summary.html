@@ -2,15 +2,10 @@
     <h2 class="entry-title">
     <a href="{{ .Permalink }}">{{ .Title }}</a>
     </h2>
-    <div class="entry-byline" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    By <span itemprop="name">{{ .Params.author_name }}</span>
-    |
-    <time class="entry-date" datetime='{{ .Date.Format "2006-01-02"  }}'>{{ .Date.Format "January 2, 2006" }}</time>
-    </div>
-    <div class="other-info">
-    Posted in <span class="entry-topic">{{ range .Params.topics }}<a href="/topics/{{ . | urlize | lower}}/">{{ . }}</a>{{ end }}</span>
-    </div>
     <div class="entry-summary">
-    <p>{{ if .Params.lede }}{{ .Params.lede }}{{ else }}--{{ end }}</p>
+    <figure>
+        <a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}img/assets/thumb-{{ .Params.interactiveslug }}.jpg" alt="" itemprop="image"></a>
+    </figure>
+    <p>{{ if .Params.packagedescription }}{{ .Params.packagedescription }}{{ else }}{{ .Summary }}{{ end }}</p>
     </div>
 </article>

@@ -33,14 +33,27 @@
         <div class="entry-content" itemprop="articleBody">
             {{ .Content }}
 
+            {{ if .Params.usage_location }}
+            <p>
+            Usage location:
+            {{ if .Params.usage_locationurl }}
+            <a href="{{ .Params.usage_locationurl }}" target="_blank">
+            {{ .Params.usage_location }}
+            </a>
+            {{ else }}
+            {{ .Params.usage_location }}
+            {{ end }}
+            </p>
+            {{ end }}
             <div class="embed-code">
             <h3>How to install</h3>
             <h4>Iframe embed</h4>
             <p>To embed this interactive directly into your website, copy the following code:</p>
-            <pre>
-&lt;iframe src="https://interactives.ctl.columbia.edu/lib/{{ .Params.interactiveslug }}/" frameborder="0"&gt;
-&lt;/iframe&gt;
-            </pre>
+            
+        <form>
+            <textarea class="code-copy" readonly="readonly">&lt;iframe src="https://interactives.ctl.columbia.edu/lib/{{ .Params.interactiveslug }}/" frameborder="0"&gt;
+&lt;/iframe&gt;</textarea>
+        </form>
             <h4>NPM and Dev installation</h4>
             <p>For this type of installation, please follow the instructions on <a href="{{ .Params.githuburl }}" target="_blank">Github</a> or <a href="{{ .Params.npmurl }}" target="_blank">NPM</a></p>
             </div>

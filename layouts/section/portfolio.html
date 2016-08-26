@@ -1,7 +1,7 @@
 {{partial "header.html" .}}
-<h1 id="primary-title">CompilED Articles</h1>
+<h1 id="primary-title">Portfolio</h1>
 
-{{ $paginator := .Paginate .Data.Pages }}
+{{ $paginator := .Paginate (where .Data.Pages  "Params.secondary_type" "!=" "linkdump" ) }}
 
 {{ range $paginator.Pages }}
 {{ .Render "summary" }}

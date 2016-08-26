@@ -1,7 +1,9 @@
 ---
-date: 2016-08-24
+date: 2016-08-25
 githubURL: "https://github.com/ccnmtl/specialneedsvisit-pack"
 npmURL: "https://www.npmjs.com/package/specialneedsvisit-pack"
+usage_location: "PASS: Special Needs"
+usage_locationURL: "https://pass.ctl.columbia.edu/special-needs/qa-with-tylers-mom/"
 interactiveslug: "specialneedsvisit"
 license: mit
 packagedescription: "A Q&A session to prepare for a dental visit with a special needs patient."

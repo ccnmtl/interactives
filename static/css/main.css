@@ -345,7 +345,7 @@ hr.front-page {
 }
 
 .summary {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .summary .entry-title {
@@ -366,6 +366,17 @@ hr.front-page {
 
 .summary .entry-summary {
     margin-top: 10px;
+    vertical-align: middle;
+}
+
+.summary .entry-summary figure {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.summary .entry-summary figure img {
+    width: 130px;
+    border: 1px solid #ccc;
 }
 
 .summary .other-info {
@@ -519,6 +530,12 @@ hr.front-page {
     padding: 0;
     border: 0;
     min-width: 900px;
+}
+
+.code-copy {
+    width: 100%;
+    height: 80px;
+    font: normal 14px/140% "Courier New",Menlo,Monaco,Consolas,monospace;
 }
 
 .video-display {
