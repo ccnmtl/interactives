@@ -1,21 +1,21 @@
 ---
-date: 2016-08-23
+date: 2016-08-25
 githubURL: "https://github.com/ccnmtl/elderissuesdresser-pack"
 npmURL: "https://www.npmjs.com/package/elderissuesdresser-pack"
 interactiveslug: "elderdresser"
 license: mit
-packagedescription: "Interactive to demonstrate typical elder care services."
-title: Older Adult Support Services
+packagedescription: "Activity to understand the physiologic, functional, psychosocial and environmental determinants of aging."
+title: "Older Adults: Dresser Activity"
 type: portfolio
+usage_location: "PASS: Older Adults"
+usage_locationURL: "https://pass.ctl.columbia.edu/older-adults/scenario-1/"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis risus quis ante euismod sagittis quis vitae quam. Cras tristique sem et lorem auctor pulvinar. Curabitur non sem porta, porttitor eros in, semper justo. Nam ex quam, egestas et nunc ut, mollis porta nisl. Vestibulum sit amet bibendum leo. Nam aliquam dignissim aliquam. Sed ac lorem et est dapibus finibus.
+Here you will learn about the high functioning older adult population. Although this population can manage independently, they may have several health issues leading to declining oral health.
 
-Nunc sagittis nec eros non convallis. Nulla eget lacus sagittis, bibendum quam id, lobortis nulla. Vivamus eu ligula feugiat, sollicitudin ipsum non, consectetur mi. Mauris sed tempor lacus. Nulla facilisi. Etiam a condimentum enim, in aliquam massa. Nullam fermentum lobortis enim at convallis. Suspendisse potenti. Quisque sed felis molestie, egestas enim in, auctor libero. Phasellus metus eros, faucibus in porttitor quis, gravida sit amet massa. Phasellus maximus urna turpis, ut porttitor nisi feugiat non. Nunc enim massa, lacinia id mollis eget, efficitur vel lectus. Pellentesque velit est, accumsan in auctor fermentum, posuere vitae metus.
+Older adults are at high risk for developing chronic illnesses and related disabilities. Treating the older adult requires special approaches and an understanding of the physiologic, functional, psychosocial and environmental determinants of aging. Take a look at an aging couple's dresser to get a sense of what some of the daily medical and social issues that they are dealing with.
 
-Duis blandit vitae sapien sit amet facilisis. Phasellus eget felis mi. Suspendisse potenti. Nunc eu posuere quam. Nullam id libero posuere, pellentesque elit sit amet, facilisis lacus. Sed lobortis et nibh eget pharetra. Nunc leo metus, vehicula vel pellentesque a, efficitur dapibus diam.
-
-### Project
+## Project
 
 {{< related_project "pass" >}}
 {{< interactives url="elderdresser" minsize="md" name="elderdresser" >}}

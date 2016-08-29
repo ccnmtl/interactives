@@ -1,21 +1,25 @@
 ---
-date: 2016-08-23
+date: 2016-08-27
 githubURL: "https://github.com/ccnmtl/dentalofficelocation-pack"
 interactiveslug: dentaloffice
 license: mit
 npmURL: "https://www.npmjs.com/package/dentalofficelocation-pack"
-packagedescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam."
+packagedescription: "A simulation of the process of choosing a site location for a dental program and advising on the overall operation and design."
 title: "Dental Office Location"
 type: portfolio
+usage_location: "PASS: Adolescents"
+usage_locationURL: "https://pass.ctl.columbia.edu/adolescents/interview-stakeholders/"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis risus quis ante euismod sagittis quis vitae quam. Cras tristique sem et lorem auctor pulvinar. Curabitur non sem porta, porttitor eros in, semper justo. Nam ex quam, egestas et nunc ut, mollis porta nisl. Vestibulum sit amet bibendum leo. Nam aliquam dignissim aliquam. Sed ac lorem et est dapibus finibus.
+This activity is designed to simulate of the process of choosing a site location for a dental program and advising on its overall operation and design.
 
-Nunc sagittis nec eros non convallis. Nulla eget lacus sagittis, bibendum quam id, lobortis nulla. Vivamus eu ligula feugiat, sollicitudin ipsum non, consectetur mi. Mauris sed tempor lacus. Nulla facilisi. Etiam a condimentum enim, in aliquam massa. Nullam fermentum lobortis enim at convallis. Suspendisse potenti. Quisque sed felis molestie, egestas enim in, auctor libero. Phasellus metus eros, faucibus in porttitor quis, gravida sit amet massa. Phasellus maximus urna turpis, ut porttitor nisi feugiat non. Nunc enim massa, lacinia id mollis eget, efficitur vel lectus. Pellentesque velit est, accumsan in auctor fermentum, posuere vitae metus.
+The student plays the role of a licensed dentist working in a private suburban practice who is approached by the Adolescent Health Center (AHC) for consultation. The AHC needs assistance in expanding its health services to include an oral health program to serve the underserved poor/low income adolescents in the local neighborhood.
 
-Duis blandit vitae sapien sit amet facilisis. Phasellus eget felis mi. Suspendisse potenti. Nunc eu posuere quam. Nullam id libero posuere, pellentesque elit sit amet, facilisis lacus. Sed lobortis et nibh eget pharetra. Nunc leo metus, vehicula vel pellentesque a, efficitur dapibus diam.
+As a consultant, the student will be interviewing a number of community stakeholders who may provide some insights on how to design the dental program. Next, the student will need to present the recommendations and answer any questions regarding the program design.
 
-### Project
+As in real life, the simulation offers a limit to the time and effort that can be devoted to this project so that the student can be strategic and thoughtful regarding which stakeholders to choose what questions ask.
+
+## Project
 
 {{< related_project "pass" >}}
 {{< interactives url="dentaloffice" minsize="md" name="dentaloffice" >}}

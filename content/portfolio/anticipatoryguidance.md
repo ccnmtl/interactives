@@ -1,5 +1,5 @@
 ---
-date: 2016-08-24
+date: 2016-08-28
 githubURL: "https://github.com/ccnmtl/anticipatoryguidance-pack"
 interactiveslug: anticipatoryguidance
 license: mit
@@ -11,13 +11,11 @@ usage_location: "MATCH: Nurse Practitioners"
 usage_locationURL: "https://match.ctl.columbia.edu/nursepractitioners/anticipatory-guidance/"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis risus quis ante euismod sagittis quis vitae quam. Cras tristique sem et lorem auctor pulvinar. Curabitur non sem porta, porttitor eros in, semper justo. Nam ex quam, egestas et nunc ut, mollis porta nisl. Vestibulum sit amet bibendum leo. Nam aliquam dignissim aliquam. Sed ac lorem et est dapibus finibus.
+Anticipatory guidance is a proactive developmentally based counseling technique that focuses on the needs of a child at each stage of life. By providing practical and contemporary health information to parents before significant physical, emotional and psychological milestones, parents will anticipate impending changes, maximize their child's developmental potential and identify their child's special needs. As primary care takers of children, PNPs and pediatric dentists can mutually reinforce this guidance.
 
-Nunc sagittis nec eros non convallis. Nulla eget lacus sagittis, bibendum quam id, lobortis nulla. Vivamus eu ligula feugiat, sollicitudin ipsum non, consectetur mi. Mauris sed tempor lacus. Nulla facilisi. Etiam a condimentum enim, in aliquam massa. Nullam fermentum lobortis enim at convallis. Suspendisse potenti. Quisque sed felis molestie, egestas enim in, auctor libero. Phasellus metus eros, faucibus in porttitor quis, gravida sit amet massa. Phasellus maximus urna turpis, ut porttitor nisi feugiat non. Nunc enim massa, lacinia id mollis eget, efficitur vel lectus. Pellentesque velit est, accumsan in auctor fermentum, posuere vitae metus.
+This interactive is a JavaScript infographic designed to explain anticipatory guidance by age or developmental stage, using information adapted from _[Bright Futures: Guidelines for Health Supervision of Infants, Children, and Adolescents-Third Edition; AAP, 2008](https://brightfutures.aap.org/materials-and-tools/guidelines-and-pocket-guide/Pages/default.aspx)_
 
-Duis blandit vitae sapien sit amet facilisis. Phasellus eget felis mi. Suspendisse potenti. Nunc eu posuere quam. Nullam id libero posuere, pellentesque elit sit amet, facilisis lacus. Sed lobortis et nibh eget pharetra. Nunc leo metus, vehicula vel pellentesque a, efficitur dapibus diam.
-
-### Project
+## Project
 
 {{< related_project "match" >}}
 {{< interactives url="anticipatoryguidance" minsize="sm" name="anticipatoryguidance" >}}

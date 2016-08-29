@@ -13,9 +13,6 @@
             <div class="entry-summary">
                 <p>{{ if .Params.packagedescription }}{{ .Params.packagedescription }}{{ else }}A simple interactive.{{ end }}</p>
             </div>
-            <div class="other-info">
-                <time class="entry-date" datetime='{{ .Date.Format "2006-01-02"  }}'>{{ .Date.Format "January 2, 2006" }}</time>
-            </div>
         </article>
     </div>
 {{ end }}
@@ -33,9 +30,6 @@
             </h2>
             <div class="entry-summary">
                 <p>{{ if .Params.packagedescription }}{{ .Params.packagedescription }}{{ else }}A simple interactive.{{ end }}</p>
-            </div>
-            <div class="other-info">
-                <time class="entry-date" datetime='{{ .Date.Format "2006-01-02"  }}'>{{ .Date.Format "January 2, 2006" }}</time>
             </div>
         </article>
     </div>
