@@ -1,11 +1,11 @@
 <article class="summary clearfix">
-    <h2 class="entry-title">
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </h2>
     <div class="entry-summary">
     <figure>
         <a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}img/assets/thumb-{{ .Params.interactiveslug }}.jpg" alt="" itemprop="image"></a>
     </figure>
+    <h2 class="entry-title">
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
     <p>{{ if .Params.packagedescription }}{{ .Params.packagedescription }}{{ else }}{{ .Summary }}{{ end }}</p>
     </div>
 </article>
