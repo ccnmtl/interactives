@@ -5,17 +5,21 @@ npmURL: "https://www.npmjs.com/package/dentalcareerplan-pack"
 interactiveslug: "careerplan"
 license: mit
 packagedescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac lorem enim. Donec sit amet."
-title: "Speech-language Diagnoses"
+title: "Dental Career Planning Activity"
 type: portfolio
-usage_location: "PASS: Rural Populations"
-usage_locationURL: "https://pass.ctl.columbia.edu/rural-populations/review-strategies/"
+usage_location: "PASS: Young Children"
+usage_locationURL: "https://pass.ctl.columbia.edu/young-children/career-planning-activity/"
 ---
 
-Etiam ultricies nunc quis risus sollicitudin fermentum. Nam vitae enim leo. Suspendisse lacus quam, pulvinar et eros sit amet, pharetra congue urna. Donec sed diam ac dui molestie auctor a id augue. Morbi accumsan ligula vel risus ullamcorper, eget efficitur dolor consequat. Aliquam quis bibendum mauris. Nunc nec elit est. Praesent tempor, odio eget ultrices dapibus, leo ipsum euismod sapien, quis vestibulum erat nisl in tortor.
+Int this simulation, two of classmates, Sally and Sam, are looking for some assistance with their career and practice management decisions as they prepare to move to North Oralington. North Oralington is a fictitious state created by data from actual counties and locations throughout the U.S. In the following activity students will learn more about Sally and Sam, and North Oralington, and help these classmates make an informed career decision.
 
-Sed in dui a libero viverra rutrum. Duis at magna faucibus, faucibus nibh cursus, facilisis neque. Suspendisse rhoncus dolor vel sollicitudin auctor. Duis vitae accumsan est, efficitur convallis augue. Integer ullamcorper posuere quam a efficitur. Vivamus ultrices enim at rhoncus aliquam. Aenean neque magna, eleifend et purus sit amet, aliquet accumsan nulla. Nunc elementum leo odio, a efficitur ligula molestie faucibus.
+At the end of the activity, students will have the opportunity to apply the same kind of data analysis and critical thinking to their own future practice aspirations.
 
-Click each bubble to learn more about diagnoses treated by a speech-language pathologist.
+This is a three-part activity:
+
+1. [Advise Sam](/lib/careerplan/?actorIdx=0) 
+2. [Advise Sally](/lib/careerplan/?actorIdx=1)
+3. [Your career](/lib/careerplan/?actorIdx=2)
 
 ## Project
 

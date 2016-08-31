@@ -549,7 +549,7 @@ hr.front-page {
 	margin-top: 20px;
     /* border-left: 1px dotted #ccc;*/
     border-top: 1px dotted #ccc;
-    min-height: 315px;
+    min-height: 305px;
 }
 
 .sidenav .topic-list {
@@ -791,12 +791,21 @@ div.interactive-placeholder {
     width: 920px;
 }
 
+.lg modal-dialog  {
+    width: 945px;
+}
+
 .lg iframe  {
     width: 925px;
 }
 
 .dentaloffice iframe {
     height: 1150px;
+    min-width: 860px;
+}
+
+.ruralhealth iframe {
+    height: 1450px;
     min-width: 860px;
 }
 
@@ -820,12 +829,20 @@ div.interactive-placeholder {
     height: 610px;
 }
 
+.elderissues iframe {
+    height: 740px;
+}
+
 .supportservices iframe {
     height: 770px;
 }
 
 .specialneedsvisit iframe {
     height: 960px;
+}
+
+.careerplan iframe {
+    height: 1530px;
 }
 
 .modal {
@@ -1013,6 +1030,9 @@ div.interactive-placeholder {
         width: 925px;
     }
     .sm .modal-dialog {
+        width: 955px;
+    }
+    .md .modal-dialog  {
         width: 955px;
     }
     .md iframe  {

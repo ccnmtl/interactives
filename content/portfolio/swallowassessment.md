@@ -4,20 +4,16 @@ githubURL: "https://github.com/ccnmtl/swallowassessment-pack"
 npmURL: "https://www.npmjs.com/package/swallowassessment-pack"
 interactiveslug: "swallowassessment"
 license: mit
-packagedescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac lorem enim. Donec sit amet."
-title: "Speech-language Diagnoses"
+packagedescription: "Infographic listing the age-specific tell-tale behaviors warranting a swallow assessment by a speech language pathologist."
+title: "Swallow Assessments"
 type: portfolio
-usage_location: "PASS: Rural Populations"
-usage_locationURL: "https://pass.ctl.columbia.edu/rural-populations/review-strategies/"
+usage_location: "MATCH: Speech Pathology"
+usage_locationURL: "https://match.ctl.columbia.edu/speechpathology/swallow-assessments/"
 ---
 
-Etiam ultricies nunc quis risus sollicitudin fermentum. Nam vitae enim leo. Suspendisse lacus quam, pulvinar et eros sit amet, pharetra congue urna. Donec sed diam ac dui molestie auctor a id augue. Morbi accumsan ligula vel risus ullamcorper, eget efficitur dolor consequat. Aliquam quis bibendum mauris. Nunc nec elit est. Praesent tempor, odio eget ultrices dapibus, leo ipsum euismod sapien, quis vestibulum erat nisl in tortor.
-
-Sed in dui a libero viverra rutrum. Duis at magna faucibus, faucibus nibh cursus, facilisis neque. Suspendisse rhoncus dolor vel sollicitudin auctor. Duis vitae accumsan est, efficitur convallis augue. Integer ullamcorper posuere quam a efficitur. Vivamus ultrices enim at rhoncus aliquam. Aenean neque magna, eleifend et purus sit amet, aliquet accumsan nulla. Nunc elementum leo odio, a efficitur ligula molestie faucibus.
-
-Click each bubble to learn more about diagnoses treated by a speech-language pathologist.
+Pediatric dentists not only assess and manage oral health and structure, but follow a child’s oral function and the growth and development of their teeth and oral cavity. Aberrant oral structure and function can result in difficulty with speech and swallowing.  Speech-language pathologists assess and treat individuals throughout their lifespan with speech disorders, including swallowing disorders. This infographic provide a summary of age-specific behaviors warrantin a swallow assessment by a speech language pathologist.
 
 ## Project
 
 {{< related_project "match" >}}
-{{< interactives url="swallowassessment" minsize="md" name="swallowassessment" >}}
+{{< interactives url="swallowassessment" minsize="sm" name="swallowassessment" >}}
