@@ -1,29 +1,27 @@
 ---
 date: "2016-05-09T11:57:04-04:00"
-title: "About CompilED"
-lede: "CompilED is a collection of reflections and comments by the software developers at Columbia's Center for Teaching and Learning (CTL). These views are rooted in our professional and personal experiences developing educational technology. This blog is directed at hackers, programmers, designers, and architects of all flavors, but everyone is welcome."
+title: "About Interactives@CTL"
+lede: "Interactives@CTL is a collection of rich client-side Javascript interactive content developed at Columbia's Center for Teaching and Learning (CTL)."
 ---
 
-CompilED is a collection of reflections and comments by the software developers at Columbia's [Center for Teaching and Learning](http://ctl.columbia.edu) (CTL). These views are rooted in our professional and personal experiences developing educational technology. This blog is directed at hackers, programmers, designers, and architects of all flavors, but everyone is welcome.
+Interactives@CTL is a collection of rich Javascript interactive content developed at Columbia's Center for Teaching and Learning (CTL).
 
----------
+At CTL, client-side interactives enrich many of our serial-learning web applications. These discrete JavaScript blocks challenge students with quizzes, animations, case studies, calculators and games. The goal is to transform a passive reading exercise into an active learning experience. The interactives encourage students to use higher-order skills to deepen understanding and aid retention.
 
-Software increasingly mediates human-to-human communication, not only human-to-machine interactions. Much like the design of a physical classroom the architecture and design of digital learning environments expresses the values of their creators and significantly shapes learning experiences.  Does a digital environment foster an atmosphere where students are figuratively sitting in the rows of a lecture hall, asking permission before they speak? Or, are they arranged in the familiar circle of a seminar room where the conversation flows organically? Software helps create the conditions for learning by catalyzing communicative dynamics. Good software supports good pedagogy by guiding the flows of knowledge, information and power. 
+Our in-house content management tool [Pagetree](https://github.com/ccnmtl/django-pagetree) provides the framework for our interactives. The JavaScript blocks hook into the content hierarchy using well-known patterns. The Pagetree infrastructure is a powerful and cost-effective approach when user data must be collected and analyzed. But, many of our interactives carry enough context to stand on their own statelessly. Our clients often want to make this class of content available in blogs, wikis and social media.
 
-Making and building software that facilitates good teaching requires working closely with all of the project’s stakeholders throughout an iterative development process. Our projects always begin with an educational hypothesis, one that imagines ways that digital media and networked environments can promote learning objectives. Our approach is grounded in the curriculum with a focus on translating and preserving traditional scholarly practices such as critical analysis, close reading, citing primary sources and showing your work. We also help faculty explore the frontiers of study and scholarship by creating opportunities for students to develop new digital literacies, meaningfully collaborate, analyze (and help construct) large multimedia archives and authentically engage in public discourse. 
+In summer of 2016, we, the developers at CTL, began exploring ways to make these interactives standalone and stateless. This portfolio is the result of our efforts.
 
-Unlike many third-party consumer tools, technology designed for education often provides capabilities to protect student’s privacy, support different pedagogies, workflows that match curricular goals, as well as tools designed to administer and assess student performance. Customizing software, often by participating and extending existing open source platforms, allows for even more control of the student experience, allowing faculty to design experiences tailored to their specific needs. 
+The following [CompilED](https://compiled.ctl.columbia.edu) blog posts, detail the research and development behind these standalone interactives:
 
-We follow the principles of Design Research as well as industry best practices. Our entire team of project managers, programmers, web designers and video specialists all work closely with the faculty to understand and refine project deliverables. We embrace agile development processes, iterating and improvising throughout the development journey. We specialize in designing intuitive, user friendly experiences, and have extensive experience delivering complex applications, on time and feature complete. Our work begins with supporting commodity platforms such as the LMS, wikis and blogs. Our projects often begin where these systems leave off, and we have a great deal of experience improving users’ experiences with rich media, annotations, collaboration, simulations, and translating software developed on a lab bench to the web. 
-
-Our project teams are passionate about Columbia’s mission and maintain a playful sense of fascination around technology at the intersection of education, library science and research. We take pride our adoption of cutting edge engineering, and our approach to quality control includes techniques such as test-driven development, code reviews, and continuous integration.
+1. [Packaging JavaScript Interactives](https://compiled.ctl.columbia.edu/articles/standalone-interactives/)
+2. [Testing JavaScript Interactives](https://compiled.ctl.columbia.edu/articles/standalone-interactives-testing/)
 
 &nbsp;
 
-## The codes and blog
+## The codes and this site
 
-Our [software development team](http://ctl.columbia.edu/about/team/#devteam), as well as most of our projects are accessible, responsive and open. You can follow our reflections on the technical aspects of the Center’s work here in [CompilED](..) and on [Github](http://github.com/ccnmtl).
+Interactives@CTL is built with [Hugo](https://gohugo.io/) and [Bootstrap](http://getbootstrap.com/) by [Zarina Mustapha](http://ctl.columbia.edu/about/team/mustapha/).
 
-CompilED is built with [Hugo](https://gohugo.io/) and [Bootstrap](http://getbootstrap.com/) by [Zarina Mustapha](http://ctl.columbia.edu/about/team/mustapha/) and [Anders Pearson](http://ctl.columbia.edu/about/team/pearson/). The artwork for the banner is "<i>[Revisionism](https://myopica.org/oil/revisionism/)</i>" by Anders Pearson.
+Our [software development team](https://compiled.ctl.columbia.edu/authors/), as well as most of our projects are accessible, responsive and open. You can follow our reflections on the technical aspects of the our work here in [CompilED](..) and on [Github](http://github.com/ccnmtl).
 
-Unless otherwise noted, the content on this blog is licensed under a [Creative Commons Attribution-ShareAlike 3.0 United States](http://creativecommons.org/licenses/by-sa/3.0/us/) license.

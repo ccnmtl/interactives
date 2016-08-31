@@ -9,5 +9,5 @@ SectionPagesMenu = "main"
     tag = "tags"
 
 [params]
-    description = "A portfolio of standalone interactives developed at the Center for Teaching and Learning at Columbia University"
+    description = "Interactives@CTL is a collection of rich client-side Javascript interactive content developed at Columbia's Center for Teaching and Learning (CTL)."
     keywords = "javascript, webpack"
