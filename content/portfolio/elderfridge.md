@@ -18,4 +18,4 @@ Older adults are at high risk for developing chronic illnesses and related disab
 ## Project
 
 {{< related_project "pass" >}}
-{{< interactives url="elderfridge" minsize="md" name="elderfridge" >}}
+{{< interactives url="elderfridge" options="?quiet=1" minsize="md" name="elderfridge" >}}

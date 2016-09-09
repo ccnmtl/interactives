@@ -18,4 +18,4 @@ This activity explores a list of suport services available for the elderly.
 ## Project
 
 {{< related_project "pass" >}}
-{{< interactives url="supportservices" minsize="sm" name="supportservices" >}}
+{{< interactives url="supportservices" options="?quiet=1" minsize="sm" name="supportservices" >}}
