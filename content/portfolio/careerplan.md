@@ -17,11 +17,11 @@ At the end of the activity, students will have the opportunity to apply the same
 
 This is a three-part activity:
 
-1. [Advise Sam](/lib/careerplan/?actorIdx=0) 
-2. [Advise Sally](/lib/careerplan/?actorIdx=1)
-3. [Your career](/lib/careerplan/?actorIdx=2)
+1. [Advise Sam](/lib/careerplan/?actorIdx=0&quiet=1) 
+2. [Advise Sally](/lib/careerplan/?actorIdx=1&quiet=1)
+3. [Your career](/lib/careerplan/?actorIdx=2&quiet=1)
 
 ## Project
 
 {{< related_project "pass" >}}
-{{< interactives url="careerplan" minsize="md" name="careerplan" >}}
+{{< interactives url="careerplan" options="?actorIdx=1&quiet=1" minsize="md" name="careerplan" >}}

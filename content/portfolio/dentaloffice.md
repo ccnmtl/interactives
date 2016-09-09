@@ -22,4 +22,4 @@ As in real life, the simulation offers a limit to the time and effort that can b
 ## Project
 
 {{< related_project "pass" >}}
-{{< interactives url="dentaloffice" minsize="md" name="dentaloffice" >}}
+{{< interactives url="dentaloffice" options="?quiet=1" minsize="md" name="dentaloffice" >}}

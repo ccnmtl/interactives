@@ -18,4 +18,4 @@ This interactive is part of an exercise demonstrating a scenario where a dental 
 ## Project
 
 {{< related_project "pass" >}}
-{{< interactives url="specialneedsvisit" minsize="all" name="specialneedsvisit" >}}
+{{< interactives url="specialneedsvisit" options="?quiet=1" minsize="all" name="specialneedsvisit" >}}
