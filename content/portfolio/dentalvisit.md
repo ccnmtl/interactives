@@ -3,6 +3,7 @@ date: 2016-08-26
 githubURL: "https://github.com/ccnmtl/dentalvisitactivity-pack"
 npmURL: "https://www.npmjs.com/package/dentalvisitactivity-pack"
 interactiveslug: "dentalvisit"
+license: gplv3
 packagedescription: "Interactive to recreate a pediatric dental visit where the dentist is presented with an early childhood caries case."
 title: Pediatric Dental Visit
 type: portfolio

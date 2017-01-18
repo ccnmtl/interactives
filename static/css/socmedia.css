@@ -43,3 +43,49 @@
     margin: 0 5px;
 }
 
+#share-url .close,
+#embed-url .close {
+    width: 20px;
+    height: 20px;
+    background: transparent url('/img/icon-clearclose.png') center center no-repeat;
+}
+
+#share-url .close,
+#embed-url .close {
+  filter: alpha(opacity=100);
+  opacity: 100;
+}
+
+#share-url .close:hover,
+#share-url .close:focus,
+#embed-url .close:hover,
+#embed-url .close:focus {
+  filter: alpha(opacity=100);
+  opacity: 100;
+}
+
+#share-url .popover-title,
+#embed-url .popover-title {
+    padding: 4px;
+    background-color: transparent;
+    border: none;
+}
+
+#share-url input[type='text'] {
+    width: 240px;
+    height: auto;
+}
+
+#share-url textarea.direct-url,
+#embed-url textarea.embed-url {
+    width: 240px;
+    height: auto;
+}
+
+#embed-url textarea.embed-url {
+    height: 150px;
+}
+#share-url .launch {
+    margin-left: 5px;
+    font-size: 12px;
+}

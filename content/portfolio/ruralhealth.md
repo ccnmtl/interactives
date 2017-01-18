@@ -3,7 +3,7 @@ date: 2016-08-22
 githubURL: "https://github.com/ccnmtl/dentalruralhealth-pack"
 npmURL: "https://www.npmjs.com/package/dentalruralhealth-pack"
 interactiveslug: "ruralhealth"
-license: mit
+license: gplv3
 packagedescription: "An activity for students to recommend a proposal to establish an oral health program targeting poor and low income rural adults."
 title: "Rural Health Office Strategy"
 type: portfolio

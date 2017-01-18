@@ -3,7 +3,7 @@ date: 2016-08-25
 githubURL: "https://github.com/ccnmtl/elderissuesdresser-pack"
 npmURL: "https://www.npmjs.com/package/elderissuesdresser-pack"
 interactiveslug: "elderdresser"
-license: mit
+license: gplv3
 packagedescription: "Activity to understand the physiologic, functional, psychosocial and environmental determinants of aging."
 title: "Older Adults: Dresser Activity"
 type: portfolio
