@@ -2,7 +2,7 @@
 date: 2016-08-28
 githubURL: "https://github.com/ccnmtl/anticipatoryguidance-pack"
 interactiveslug: anticipatoryguidance
-license: mit
+license: gplv3
 npmURL: "https://www.npmjs.com/package/anticipatoryguidance-pack"
 packagedescription: "Infographics to demonstrate anticipatory guidance by a ge or developmental stage."
 title: "Anticipatory Guidance"

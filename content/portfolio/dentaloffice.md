@@ -2,7 +2,7 @@
 date: 2016-08-27
 githubURL: "https://github.com/ccnmtl/dentalofficelocation-pack"
 interactiveslug: dentaloffice
-license: mit
+license: gplv3
 npmURL: "https://www.npmjs.com/package/dentalofficelocation-pack"
 packagedescription: "A simulation of the process of choosing a site location for a dental program and advising on the overall operation and design."
 title: "Dental Office Location"

@@ -3,7 +3,7 @@ date: 2016-08-18
 githubURL: "https://github.com/ccnmtl/dentalcareerplan-pack"
 npmURL: "https://www.npmjs.com/package/dentalcareerplan-pack"
 interactiveslug: "careerplan"
-license: mit
+license: gplv3
 packagedescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac lorem enim. Donec sit amet."
 title: "Dental Career Planning Activity"
 type: portfolio

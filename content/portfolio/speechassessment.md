@@ -3,7 +3,7 @@ date: 2016-08-19
 githubURL: "https://github.com/ccnmtl/speechassessment-pack"
 npmURL: "https://www.npmjs.com/package/speechassessment-pack"
 interactiveslug: "speechassessment"
-license: mit
+license: gplv3
 packagedescription: "An infographic summarizing the age-specific behaviors warranting a speech-language pathology referral."
 title: "Behavior Diagnoses for Speech Pathologist Referrals"
 type: portfolio

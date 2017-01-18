@@ -6,7 +6,26 @@
     {{ if .Params.npmurl }}
     <li><a href="{{ .Params.npmurl }}" target="_blank">NPM</a></li>
     {{ end }}
-    <li><a href="{{ .Site.BaseURL }}lib/{{ .Params.interactiveslug }}/" target="_blank">Link</a></li>
+    <li id="share-url" class="direct-link"><a rel="nofollow" href="javascript://">Link</a>
+        <div class="content hide">
+            <div class="form-group">
+            <h5>Copy link to interactive:</h5>
+            <textarea class="form-control direct-url"
+            onclick="this.select()" readonly="readonly">https://interactives.ctl.columbia.edu/lib/{{ .Params.interactiveslug }}/</textarea>
+            <h5 class="launch"><a href="https://interactives.ctl.columbia.edu/lib/{{ .Params.interactiveslug }}/" target="_blank">Launch interactive in a new window</a></h5>
+            </div>
+        </div>
+    </li>
+    <li id="embed-url" class="direct-embed"><a rel="nofollow" href="javascript://">Embed</a>
+        <div class="content hide">
+            <div class="form-group">
+            <h5>Copy the embed code:</h5>
+            <textarea class="form-control embed-url"
+            onclick="this.select()" readonly="readonly">&lt;iframe src="https://interactives.ctl.columbia.edu/lib/{{ .Params.interactiveslug }}/" frameborder="0"&gt;
+&lt;/iframe&gt;</textarea>
+            </div>
+        </div>
+    </li>
 </ul>
 
 
@@ -16,8 +35,8 @@
     {{ if eq .Params.license "mit" }}
     <li><a href="http://spdx.org/licenses/MIT" target="_blank">MIT</a></li>
     {{ end }}
-    {{ if eq .Params.license "gplv2" }}
-    <li><a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GPLv2</a></li>
+    {{ if eq .Params.license "gplv3" }}
+    <li><a itemprop="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPL 3.0</a></li>
     {{ end }}
 </ul>
 {{ end }}

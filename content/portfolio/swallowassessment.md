@@ -3,7 +3,7 @@ date: 2016-08-20
 githubURL: "https://github.com/ccnmtl/swallowassessment-pack"
 npmURL: "https://www.npmjs.com/package/swallowassessment-pack"
 interactiveslug: "swallowassessment"
-license: mit
+license: gplv3
 packagedescription: "Infographic listing the age-specific tell-tale behaviors warranting a swallow assessment by a speech language pathologist."
 title: "Swallow Assessments"
 type: portfolio

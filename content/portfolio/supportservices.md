@@ -3,7 +3,7 @@ date: 2016-08-24
 githubURL: "https://github.com/ccnmtl/supportservices-pack"
 npmURL: "https://www.npmjs.com/package/supportservices-pack"
 interactiveslug: "supportservices"
-license: mit
+license: gplv3
 packagedescription: "Interactive to demonstrate typical elder care services."
 title: "Older Adult Support Services"
 type: portfolio

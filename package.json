@@ -1,5 +1,5 @@
 {
-  "name": "passhugo",
+  "name": "interactives",
   "version": "0.1.0",
   "description": "",
   "main": "",
@@ -8,26 +8,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ccnmtl/passhugo.git"
+    "url": "git://github.com/ccnmtl/interactives.git"
   },
   "author": "",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/ccnmtl/passhugo/issues"
+    "url": "https://github.com/ccnmtl/interactives/issues"
   },
   "dependencies": {
-    "anticipatoryguidance-pack": "^0.1.5",
-    "dentalcareerplan-pack": "^0.1.7",
-    "dentalofficelocation-pack": "^0.1.6",
-    "dentalruralhealth-pack": "^0.1.6",
-    "dentalvisitactivity-pack": "^0.1.6",
-    "elderissuesdresser-pack": "^0.1.8",
-    "elderissuesrefrigerator-pack": "^0.1.7",
-    "specialneedsvisit-pack": "^0.1.7",
-    "speechassessment-pack": "^0.1.5",
-    "speechdiagnoses-pack": "^0.1.5",
-    "supportservices-pack": "^0.1.7",
-    "swallowassessment-pack": "^0.1.5",
+    "anticipatoryguidance-pack": "^0.1.6",
+    "dentalcareerplan-pack": "^0.1.8",
+    "dentalofficelocation-pack": "^0.1.7",
+    "dentalruralhealth-pack": "^0.1.7",
+    "dentalvisitactivity-pack": "^0.1.8",
+    "elderissuesdresser-pack": "^0.1.9",
+    "elderissuesrefrigerator-pack": "^0.1.8",
+    "specialneedsvisit-pack": "^0.1.8",
+    "speechassessment-pack": "^0.1.6",
+    "speechdiagnoses-pack": "^0.1.6",
+    "supportservices-pack": "^0.1.8",
+    "swallowassessment-pack": "^0.1.6",
     "webpack": "^1.13.1"
   },
   "devDependencies": {

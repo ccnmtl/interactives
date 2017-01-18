@@ -3,7 +3,7 @@ date: 2016-08-23
 githubURL: "https://github.com/ccnmtl/elderissuesrefrigerator-pack"
 npmURL: "https://www.npmjs.com/package/elderissuesrefrigerator-pack"
 interactiveslug: "elderfridge"
-license: mit
+license: gplv3
 packagedescription: "Activity to understand the physiologic, functional, psychosocial and environmental determinants of aging."
 title: "Older Adults: Refrigerator Activity"
 type: portfolio

@@ -5,7 +5,7 @@ npmURL: "https://www.npmjs.com/package/specialneedsvisit-pack"
 usage_location: "PASS: Special Needs"
 usage_locationURL: "https://pass.ctl.columbia.edu/special-needs/qa-with-tylers-mom/"
 interactiveslug: "specialneedsvisit"
-license: mit
+license: gplv3
 packagedescription: "A Q&A session to prepare for a dental visit with a special needs patient."
 title: Special Needs Dental Visit
 type: portfolio

@@ -3,7 +3,7 @@ date: 2016-08-21
 githubURL: "https://github.com/ccnmtl/speechdiagnoses-pack"
 npmURL: "https://www.npmjs.com/package/speechdiagnoses-pack"
 interactiveslug: "speechdiagnoses"
-license: mit
+license: gplv3
 packagedescription: "Infographic showing the diagnoses treated by a speech-language pathologist."
 title: "Speech-Language Diagnoses"
 type: portfolio
