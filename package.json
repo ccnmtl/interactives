@@ -28,7 +28,7 @@
     "speechdiagnoses-pack": "^0.1.6",
     "supportservices-pack": "^0.1.8",
     "swallowassessment-pack": "^0.1.6",
-    "webpack": "^1.13.1"
+    "webpack": "^3.3.0"
   },
   "devDependencies": {
     "jshint": "~2.9.1-rc1",
