@@ -16,7 +16,7 @@
     "url": "https://github.com/ccnmtl/interactives/issues"
   },
   "dependencies": {
-    "anticipatoryguidance-pack": "^0.1.6",
+    "anticipatoryguidance-pack": "^0.1.7",
     "dentalcareerplan-pack": "^0.1.10",
     "dentalofficelocation-pack": "^0.1.8",
     "dentalruralhealth-pack": "^0.1.8",
