@@ -28,6 +28,7 @@
     "speechdiagnoses-pack": "^0.1.7",
     "supportservices-pack": "^0.1.9",
     "swallowassessment-pack": "^0.1.7",
+    "ssnm-pack": "^0.1.5",
     "webpack": "^3.3.0"
   },
   "devDependencies": {
