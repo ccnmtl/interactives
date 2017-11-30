@@ -6,7 +6,7 @@ INTERMEDIATE_STEPS ?= echo nothing
 
 JS_FILES=static/js/src
 
-all: jshint jscs webpack
+all: eslint webpack
 
 include *.mk
 
