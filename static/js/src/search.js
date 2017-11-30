@@ -16,6 +16,7 @@ $.getJSON('/js/all.json').done(function(item) {
     });
 }).fail(function(jqxhr, textStatus, error) {
     var err = textStatus + ', ' + error;
+    // eslint-disable-next-line no-console
     console.error('Error getting Hugo index file:', err);
 });
 
@@ -27,7 +28,7 @@ var doSearch = function() {
     $el.show();
     $el.append('<div class="arrow"></div>');
     $el.append(
-       $('<h2>RESULTS FOR: "' + q + '"</h2>')
+        $('<h2>RESULTS FOR: "' + q + '"</h2>')
     );
     if (results.length === 0) {
         $el.append('<div class="q-no-item">Unfortunately, there are ' +
