@@ -15,4 +15,4 @@ webpack:  $(JS_SENTINAL)
 	$(WEBPACK_UTIL) --output-path $(OUTPUT_PATH)careerplan/ --config ./node_modules/dentalcareerplan-pack/webpack.config.js
 	$(WEBPACK_UTIL) --output-path $(OUTPUT_PATH)elderdresser/ --config ./node_modules/elderissuesdresser-pack/webpack.config.js
 	$(WEBPACK_UTIL) --output-path $(OUTPUT_PATH)elderfridge/ --config ./node_modules/elderissuesrefrigerator-pack/webpack.config.js
-	$(WEBPACK_UTIL) --output-path $(OUTPUT_PATH)ssnm-pack/ --config ./node_modules/ssnm-pack/webpack.config.js
+	$(WEBPACK_UTIL) --output-path $(OUTPUT_PATH)ssnm/ --config ./node_modules/ssnm-pack/webpack.config.js
