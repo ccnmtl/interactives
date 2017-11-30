@@ -6,3 +6,4 @@ node_modules
 .project
 .settings
 static/lib
+local.mk
