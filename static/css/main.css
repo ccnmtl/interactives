@@ -849,11 +849,22 @@ div.interactive-placeholder {
     height: 1530px;
 }
 
+.ssnm iframe {
+    width: 100% !important;
+    height: 650px !important;
+}
+
 .modal {
     z-index: 5000;
 }
 
 @media (max-width: 415px) {
+}
+
+@media (min-width: 576px) {
+    .ssnm iframe {
+        height: 650px !important;
+    }
 }
 
 @media (max-width: 767px) {
@@ -952,6 +963,9 @@ div.interactive-placeholder {
     }
     .sm-width-warning {
         display: none;
+    }
+    .ssnm iframe {
+        height: 1000px !important;
     }
 }
 
