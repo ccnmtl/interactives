@@ -28,7 +28,7 @@
     "speechdiagnoses-pack": "^0.1.8",
     "supportservices-pack": "^0.1.10",
     "swallowassessment-pack": "^0.1.8",
-    "ssnm-pack": "^0.1.9",
+    "ssnm-pack": "^0.2.0",
     "webpack": "^4.8.3",
     "webpack-cli": "~2.1.3"
   },
