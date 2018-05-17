@@ -15,5 +15,4 @@ In this activity, the student plays a role of Springdale County Chair to the Nor
 
 ## Project
 
-{{< related_project "pass" >}}
-{{< interactives url="ruralhealth" options="?quiet=1" minsize="md" name="ruralhealth" >}}
+{{< interactives url="ruralhealth" options="?quiet=1&parent=interactives" minsize="md" name="ruralhealth" >}}

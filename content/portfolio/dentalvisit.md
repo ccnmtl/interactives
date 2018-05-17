@@ -17,5 +17,4 @@ Each activity is estimated to take a certain amount of time, but just like in re
 
 ## Project
 
-{{< related_project "match" >}}
-{{< interactives url="dentalvisit" options="?quiet=1" minsize="sm" name="dentalvisit" >}}
+{{< interactives url="dentalvisit" options="?quiet=1&parent=interactives" minsize="sm" name="dentalvisit" >}}

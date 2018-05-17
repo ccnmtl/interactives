@@ -15,5 +15,4 @@ Pediatric dentists not only assess and manage oral health and structure, but fol
 
 ## Project
 
-{{< related_project "match" >}}
-{{< interactives url="swallowassessment" minsize="sm" name="swallowassessment" >}}
+{{< interactives url="swallowassessment" options="?parent=interactives" minsize="sm" name="swallowassessment" >}}
