@@ -15,5 +15,4 @@ The Social Support Network Map is an ecomap tool to help students and mental hea
 
 ## Project
 
-{{< related_project "ssnm" >}}
-{{< interactives url="ssnm" minsize="all" name="ssnm" >}}
+{{< interactives url="ssnm" options="?parent=interactives" minsize="all" name="ssnm" >}}

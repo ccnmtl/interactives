@@ -23,5 +23,4 @@ This is a three-part activity:
 
 ## Project
 
-{{< related_project "pass" >}}
-{{< interactives url="careerplan" options="?actorIdx=1&quiet=1" minsize="md" name="careerplan" >}}
+{{< interactives url="careerplan" options="?actorIdx=1&quiet=1&parent=interactives" minsize="md" name="careerplan" >}}

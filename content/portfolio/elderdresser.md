@@ -17,5 +17,4 @@ Older adults are at high risk for developing chronic illnesses and related disab
 
 ## Project
 
-{{< related_project "pass" >}}
-{{< interactives url="elderdresser" options="?quiet=1" minsize="md" name="elderdresser" >}}
+{{< interactives url="elderdresser" options="?quiet=1&parent=interactives" minsize="md" name="elderdresser" >}}

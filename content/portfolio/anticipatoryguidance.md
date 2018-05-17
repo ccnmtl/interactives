@@ -17,5 +17,4 @@ This interactive is a JavaScript infographic designed to explain anticipatory gu
 
 ## Project
 
-{{< related_project "match" >}}
-{{< interactives url="anticipatoryguidance" minsize="sm" name="anticipatoryguidance" >}}
+{{< interactives url="anticipatoryguidance" options="?parent=interactives" minsize="sm" name="anticipatoryguidance"  >}}

@@ -15,5 +15,4 @@ Speech-language pathologists assess and treat individuals throughout their lifes
 
 ## Project
 
-{{< related_project "match" >}}
-{{< interactives url="speechdiagnoses" minsize="sm" name="speechdiagnoses" >}}
+{{< interactives url="speechdiagnoses" options="?parent=interactives" minsize="sm" name="speechdiagnoses" >}}
