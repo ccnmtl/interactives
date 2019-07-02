@@ -1,4 +1,4 @@
-/* global lunr:true, console:true */
+/* global lunr:true */
 
 var index = lunr(function() {
     this.field('url');
@@ -35,7 +35,7 @@ var doSearch = function() {
                    'no results matching what you\'re looking for.');
     } else {
         for (var r in results.slice(0, 10)) {
-            if (results.hasOwnProperty(r)) {
+            if (Object.prototype.hasOwnProperty.call(results, r)) {
                 var d = data[results[r].ref];
                 var $result = $('<div class="q-item">');
                 $result.append($('<a>', {
