@@ -29,7 +29,7 @@
     "supportservices-pack": "^0.1.10",
     "swallowassessment-pack": "^0.1.8",
     "ssnm-pack": "^0.2.0",
-    "webpack": "^4.8.3",
+    "webpack": "^4.43.0",
     "webpack-cli": "~3.3.0"
   },
   "devDependencies": {
