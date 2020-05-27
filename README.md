@@ -4,7 +4,6 @@ Interactives@CTL is a collection of rich Javascript interactive content develope
 
 ## Overview
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ccnmtl/interactives.svg)](https://greenkeeper.io/)
 
 Interactives@CTL is built with [Hugo](https://gohugo.io/) and [Bootstrap](http://getbootstrap.com/) by [Zarina Mustapha](http://ctl.columbia.edu/about/team/mustapha/).
 
