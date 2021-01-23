@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/ccnmtl/interactives/workflows/build-and-test/badge.svg)](https://github.com/ccnmtl/interactives/actions)
+
 ![Interactives@CTL](https://raw.githubusercontent.com/ccnmtl/interactives/master/static/img/apple-touch-icon.png)  
 
 Interactives@CTL is a collection of rich Javascript interactive content developed at Columbia's [Center for Teaching and Learning](http://ctl.columbia.edu) (CTL).
