@@ -3,6 +3,7 @@ PROD_URL=https://interactives.ctl.columbia.edu/
 STAGING_BUCKET=interactives.stage.ccnmtl.columbia.edu
 PROD_BUCKET=interactives.ctl.columbia.edu
 INTERMEDIATE_STEPS ?= echo nothing
+HUGO=/usr/local/bin/hugo-0.35
 
 JS_FILES=static/js/src
 
